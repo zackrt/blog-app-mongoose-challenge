@@ -27,7 +27,7 @@ blogPostSchema.methods.serialize = function() {
     created: this.created
   };
 };
-//.models requires 1 collection's name ,schema, and non-plural
+//.models requires 1st parameters collection's name ,schema, and non-plural
 const BlogPost = mongoose.model('BlogPost', blogPostSchema,'BlogPost');
 //export {BlogPost}
 module.exports = {BlogPost};
