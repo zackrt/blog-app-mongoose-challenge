@@ -1,3 +1,1 @@
-Blog app challenge solution
-==========================
-# blog-app-mongoose-challenge
+Mongoose, node, express blogpost app, used from Thinkful blog challenge
